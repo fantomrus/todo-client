@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #161616;
+}
+button {
+  padding: 8px 32px;
+  height: 32px;
+  border-radius: 3px;
+  background: #161616;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: all .5s;
+}
+button:hover {
+  background: #00eab6;
+  color: #161616;
+}
+.competed_green {
+  color: green;
+}
+.competed_red {
+  color: red;
+}

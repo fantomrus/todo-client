@@ -1,0 +1,43 @@
+.loginForm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  text-align: center;
+  width: 360px;
+
+  input {
+    display: block;
+    height: 32px;
+    width: 100%;
+    min-width: 160px;
+    margin-top: 16px;
+    padding: 0 8px;
+    border: 1px solid #161616;
+    background: #ffffff;
+    border-radius: 3px;
+  }
+
+  button {
+    background: #161616;
+    border: none;
+    color: #ffffff;
+    padding: 8px 32px;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  p {
+    width: 100%;
+    margin-top: 16px;
+    text-align: center;
+  }
+
+  &__error {
+    width: 100%;
+    padding: 16px 0;
+    color: red;
+  }
+}

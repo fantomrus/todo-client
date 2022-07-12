@@ -1,0 +1,55 @@
+.todolist {
+  width: 100%;
+  &__item {
+    display: flex;
+    margin-top: 16px;
+    background: #f3f3f3;
+    padding: 16px;
+    border-radius: 3px;
+    position: relative;
+    &__date {
+      padding: 0 16px;
+      span {
+        display: block;
+        white-space: nowrap;
+      }
+      h4 {
+        margin-bottom: 8px;
+        font-size: 14px;
+      }
+    }
+    &__title {
+      p {
+        margin-top: 8px;
+      }
+      &__user {
+        margin-top: 8px;
+        h4 {
+          display: inline;
+        }
+      }
+    }
+    &__status {
+      padding: 0 16px;
+      button {
+        margin-top: 32px;
+      }
+    }
+  }
+}
+.filter {
+  border-bottom: 1px solid #f3f3f3;
+  padding: 16px 0;
+  display: flex;
+  h2 {
+    margin-right: 16px;
+  }
+  select {
+    border: 1px solid #161616;
+    border-radius: 3px;
+    background: #ffffff;
+    color: #161616;
+    padding: 0 8px;
+    margin-right: 8px;
+  }
+}

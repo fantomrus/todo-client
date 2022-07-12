@@ -1,0 +1,15 @@
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  z-index: 3;
+  height: 5px;
+  background: #00eab6;
+  animation: increase 2s infinite;
+}
+@keyframes increase {
+  100% {
+    width: 100%;
+  }
+}

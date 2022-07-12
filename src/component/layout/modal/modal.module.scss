@@ -1,0 +1,30 @@
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 999;
+  transition: opacity 200ms ease-in;
+  margin: 0;
+  padding: 0;
+  &__content {
+    position: relative;
+    width: 420px;
+    padding: 32px;
+    top: 50%;
+    left: 50%;
+    background: #ffffff;
+    border-radius: 3px;
+    transform: translate(-50%, -50%);
+    &__close {
+      position: absolute;
+      background: #ffffff;
+      right: 0;
+      padding: 8px 16px;
+      top: 0;
+      color: #161616;
+    }
+  }
+}
