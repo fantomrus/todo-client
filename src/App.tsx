@@ -6,6 +6,7 @@ import TodoList from "./component/layout/todoList";
 import Header from "./component/layout/header";
 import Modal from "./component/layout/modal";
 import TodoForm from "./component/layout/todoForm";
+import Footer from "./component/layout/footer";
 
 const App = () => {
     const dispatch = useAppDispatch()
@@ -32,6 +33,7 @@ const App = () => {
                 <TodoForm/>
             </Modal>
             <TodoList/>
+            <Footer/>
         </div>
     );
 };
