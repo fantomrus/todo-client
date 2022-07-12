@@ -31,7 +31,7 @@ const TodoList = () => {
 
     const colorTitle = (completed: string, status: string) => {
         const date = new Date()
-        if(status === 'Completed') {
+        if(status === 'Выполнена') {
             return 'competed_green'
         }
         if(new Date(completed) < date) {
